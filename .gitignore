@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Audio
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.webm
+
+# Generated data
+data/audio/
+data/output/
+
+# Local models
+models/
+*.bin
+*.pt
+*.onnx
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
